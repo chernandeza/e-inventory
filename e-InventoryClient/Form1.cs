@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace e_InventoryServer
+namespace e_InventoryClient
 {
     public partial class Form1 : Form
     {
