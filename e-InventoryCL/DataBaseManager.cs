@@ -15,6 +15,8 @@ namespace e_InventoryCL
         private SqlConnectionStringBuilder ConnectionStr;
         private SqlConnection DBConnection;
         //private SqlCommand SQLcmdSP;
+        private EventLogWriter evtWriter;
+        
 
         public DataBaseManager()
         {
@@ -23,8 +25,8 @@ namespace e_InventoryCL
             ConnectionStr.InitialCatalog = "e-Inventory";
             ConnectionStr.UserID = "dbmaster";
             ConnectionStr.Password = "New123456+";
-            DBConnection = new SqlConnection(ConnectionStr.ConnectionString);            
+            DBConnection = new SqlConnection(ConnectionStr.ConnectionString);
+            evtWriter = new EventLogWriter("e-InventoryLibrary", "Application");  
         }
-
     }
 }

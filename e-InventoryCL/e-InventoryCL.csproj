@@ -40,7 +40,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DataBaseManager.cs" />
-    <Compile Include="EvtLogWriter.cs" />
+    <Compile Include="EventLogWriter.cs" />
     <Compile Include="ObjSerializer.cs" />
     <Compile Include="SHA256Hash.cs" />
     <Compile Include="SpecialException.cs" />
