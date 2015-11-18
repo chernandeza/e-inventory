@@ -39,6 +39,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DataBaseManager.cs" />
+    <Compile Include="EvtLogWriter.cs" />
+    <Compile Include="ObjSerializer.cs" />
+    <Compile Include="SHA256Hash.cs" />
+    <Compile Include="SpecialException.cs" />
     <Compile Include="User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
